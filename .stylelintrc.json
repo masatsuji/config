@@ -1,0 +1,16 @@
+{
+    "extends": "stylelint-config-recommended",
+    "ignoreFiles": ["**/*.js"],
+    "rules": {
+        "declaration-colon-space-before": "never",
+        "declaration-colon-space-after": "always",
+        "declaration-block-no-duplicate-properties": true,
+        "rule-empty-line-before": ["always-multi-line", {
+            "except": ["after-single-line-comment","first-nested"]
+        }],
+        "indentation": 4,
+        "declaration-block-semicolon-space-before": "never",
+        "value-list-comma-space-before": "never",
+        "block-opening-brace-space-before": "always"
+    }
+}
