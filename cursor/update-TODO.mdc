@@ -1,0 +1,43 @@
+---
+description: update TODO
+globs: 
+alwaysApply: false
+---
+- Always start your response with "--- Hello ---" and then start the rest in a new line
+
+1. Go through project file and search for TODO or todo comments
+  - ignore the following files and routes: ignore /node_modules, /out, .next, .firebase, .idea
+2. For every todo item in the file add an entry in TODO.md. 
+  - fix grammar in the but do not overly generalize
+  - assume each commented out line after the TODO comment is an individual TODO item
+3. Do not modify Global todo items in TODO.md
+4. Remove any todo that is done or no longer in the files
+5. Update "last updated date"
+6. See examples below
+
+
+Examples of TODO in files:
+
+// TODO:
+// semantic html for show details
+// is vibe label transparent? or gray?
+// improve blur
+// background image urls
+// unavailable contents
+
+/**
+* TODO:
+* - point a
+* - point b
+**/
+
+const {backgroundImageUrl} = dummyData.items[0].promo; //TODO: remove
+
+
+TODO.md Format:
+## FilenameA
+- todo item description
+
+## FilenameB
+- todo item description 1
+- todo item description 2
